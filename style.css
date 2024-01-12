@@ -155,3 +155,24 @@ a {
 .copyright a {
     color: #E5E7EB;
 }
+
+/* Basic styling for the button */
+  .sign-up {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  /* Media query for responsiveness */
+  @media screen and (max-width: 600px) {
+    .sign-up {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+
+
